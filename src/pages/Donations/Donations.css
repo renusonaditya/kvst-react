@@ -1,0 +1,110 @@
+#Donation_panel {
+  position: relative;
+}
+#Donation_section {
+  position: relative;
+  text-align: center;
+  top: 30px;
+}
+
+#Donation_ban {
+  position: relative;
+  max-width: 95%;
+  max-height: auto;
+}
+#DONATION {
+  position: relative;
+  text-align: center;
+  top: 50px;
+}
+
+#DONATION ul li a {
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#abtdon {
+  position: relative;
+  text-align: left;
+  top: 70px;
+}
+
+#abtdon ul li a {
+  font-size: 26px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#about_temple_info2 {
+  position: relative;
+  text-align: left;
+  line-height: 20px;
+  top: -60px;
+}
+
+#abtdon_detail {
+  position: relative;
+  top: 80px;
+}
+#abtdon_detail ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+
+#HUNDI {
+  position: relative;
+  text-align: center;
+  top: 100px;
+}
+
+#HUNDI ul li a {
+  font-weight: bold;
+  font-size: 26px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#committee_d {
+  position: relative;
+  text-align: left;
+  top: 105px;
+}
+
+#committee_d ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*end of About Temple*/
+/*special puja Section*/
+#online {
+  position: relative;
+  text-align: center;
+  top: 80px;
+}
+
+#online ul li a {
+  font-size: 26px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#online_d {
+  position: relative;
+  text-align: left;
+  top: 100px;
+}
+
+#online_d ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: normal;
+}

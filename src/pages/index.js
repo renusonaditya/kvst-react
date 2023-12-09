@@ -1,4 +1,6 @@
-import { Trust } from "./Trust";
+export { Donations } from "./Donations";
+
+export { Trust } from "./Trust";
 
 export { About } from "./About";
 
