@@ -1,0 +1,59 @@
+#templatemo_header_panel {
+  position: relative;
+  margin: 0 auto;
+  background-color: #0c0600;
+  color: #dbc1a7;
+  height: 205px;
+}
+
+#logo {
+  width: 220px;
+  height: 220px;
+  margin-top: -182px;
+  position: relative;
+}
+
+#flag {
+  width: 32px;
+  height: 32px;
+  margin-top: -180px;
+  vertical-align: middle;
+  margin: -406px 0px 10px -125px;
+  position: relative;
+}
+
+#rod {
+  width: 30px;
+  height: 80px;
+  margin-top: -180px;
+  vertical-align: middle;
+  margin: -380px 0px 10px -51px;
+  position: relative;
+}
+
+#rod2 {
+  width: 30px;
+  height: 80px;
+  margin-top: -180px;
+  vertical-align: middle;
+  margin: -380px 0px -70px -33px;
+  position: relative;
+}
+
+#Lingam {
+  width: 220px;
+  height: 220px;
+  position: absolute;
+  right: 0;
+  top: 43px;
+  width: auto;
+}
+
+#templatemo_header_panel #templatemo_title_section {
+  width: 960px;
+  height: 132px; /* +73 ( padding ) */
+  margin: 0 auto;
+  padding-top: 73px;
+  background: url(./assets/templatemo_title_bg.jpg) center top no-repeat;
+  text-align: center;
+}

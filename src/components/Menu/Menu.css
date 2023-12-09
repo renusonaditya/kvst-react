@@ -1,0 +1,313 @@
+#templatemo_menu_panel {
+  height: 45px;
+  margin: 0 auto;
+  background: url(./assets/templatemo_menu_bg.gif) repeat;
+  color: #ffffff;
+  position: relative;
+  z-index: 5;
+}
+
+#templatemo_menu_panel #templatemo_menu_section {
+  width: 930px;
+  margin: 0 auto;
+  padding: 0 0 0 30px;
+  text-align: center;
+  z-index: 5;
+}
+
+#templatemo_menu_section ul {
+  margin: 0;
+  padding: 7px 0 0 3px;
+  list-style: none;
+  position: relative;
+  z-index: 5;
+}
+
+#templatemo_menu_section ul li a {
+  float: left;
+  width: 110px;
+  padding: 5px 0;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  border-bottom: 3px solid #472400;
+  z-index: 5;
+}
+
+#templatemo_menu_section li a:hover,
+#templatemo_menu_section li .current {
+  color: #ffffff;
+  border-bottom: 3px solid #703901;
+  z-index: 5;
+}
+
+/*2nd part*/
+
+.about-menu-label {
+  color: #ffffff;
+  border-bottom: 3px solid #703901;
+  float: left;
+  width: 110px;
+  padding: 5px 0;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  border-bottom: 3px solid #472400;
+  z-index: 5;
+}
+
+.about-menu:hover .sub-menu-1 {
+  display: block;
+  border-bottom: 3px solid #472400;
+  z-index: 5;
+}
+
+.about-menu:hover {
+  border-bottom: none;
+  z-index: 5;
+}
+
+.about-menu-label:hover {
+  border-bottom: 3px solid #703901;
+  z-index: 5;
+}
+
+.about-menu:hover .sub-menu-1,
+.sub-menu-1:hover {
+  display: block;
+}
+
+.sub-menu-1 {
+  display: none;
+  position: absolute;
+  /* margin: 10px; */
+  left: 114px;
+  background: url(./assets/templatemo_menu_bg.gif);
+  top: 39px;
+  border-bottom: 3px solid #472400;
+  z-index: 5;
+  background-repeat-y: no-repeat;
+  background-size: contain;
+}
+
+.sub-menu-1:hover {
+  border-bottom: 3px solid #703901;
+  z-index: 5;
+}
+
+.sub-menu-1 ul {
+  height: 40px;
+}
+
+.sub-menu-1 ul li {
+  height: 100%;
+}
+
+/*rituals-menu*/
+
+.rituals-menu-label {
+  color: #ffffff;
+  border-bottom: 3px solid #703901;
+  float: left;
+  width: 110px;
+  padding: 5px 0;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  border-bottom: 3px solid #472400;
+}
+
+.rituals-menu:hover .sub-menu-2 {
+  display: block;
+  border-bottom: 3px solid #472400;
+}
+
+.rituals-menu:hover {
+  border-bottom: none;
+}
+
+.rituals-menu-label:hover {
+  border-bottom: 3px solid #703901;
+}
+
+.sub-menu-2 {
+  display: none;
+  position: absolute;
+  margin: 10px;
+  left: 220px;
+
+  background: url(./assets/templatemo_menu_bg.gif);
+  top: 28.5px;
+  border-bottom: 3px solid #472400;
+}
+
+
+.trust-menu-label {
+    color: #ffffff;
+    border-bottom: 3px solid #703901;
+    float: left;
+    width: 110px;
+    padding: 5px 0;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 3px solid #472400;
+  }
+  
+  .trust-menu:hover .sub-menu-3 {
+    display: block;
+    border-bottom: 3px solid #472400;
+  }
+  
+  .trust-menu:hover {
+    border-bottom: none;
+  }
+  
+  .trust-menu-label:hover {
+    border-bottom: 3px solid #703901;
+  }
+  
+  .sub-menu-3 {
+    display: none;
+    position: absolute;
+    margin: 10px;
+    left: 334px;
+    top: 28.5px;
+    background-color: peru;
+    border-bottom: 3px solid #472400;
+  }
+  
+  /* end of rituals menu */
+  .donation-menu-label {
+    color: #ffffff;
+    border-bottom: 3px solid #703901;
+    float: left;
+    width: 110px;
+    padding: 5px 0;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 3px solid #472400;
+  }
+  
+  .donation-menu:hover .sub-menu-4 {
+    display: block;
+    border-bottom: 3px solid #472400;
+  }
+  
+  .donation-menu:hover {
+    border-bottom: none;
+  }
+  
+  .donation-menu-label:hover {
+    border-bottom: 3px solid #703901;
+  }
+  
+  .sub-menu-4 {
+    display: none;
+    position: absolute;
+    margin: 10px;
+    left: 450px;
+    background: url(./assets/templatemo_menu_bg.gif);
+    top: 29px;
+    border-bottom: 3px solid #472400;
+  }
+  
+  /* end of rituals menu */
+  
+  /*contact*/
+  .contact-menu-label {
+    color: #ffffff;
+    border-bottom: 3px solid #703901;
+    float: left;
+    width: 110px;
+    padding: 5px 0;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 3px solid #472400;
+  }
+  
+  .contact-menu:hover .sub-menu-5 {
+    display: block;
+    border-bottom: 3px solid #472400;
+  }
+  
+  .contact-menu:hover {
+    border-bottom: none;
+  }
+  
+  .contact-menu-label:hover {
+    border-bottom: 3px solid #703901;
+  }
+  
+  .sub-menu-5 {
+    display: none;
+    position: absolute;
+    margin: 10px;
+    left: 565px;
+    background: url(./assets/templatemo_menu_bg.gif);
+    top: 29px;
+    border-bottom: 3px solid #472400;
+  }
+  
+  /* end of contact menu */
+  
+  /* Accounts */
+  
+  .accounts-menu-label {
+    color: #ffffff;
+    border-bottom: 3px solid #703901;
+    float: left;
+    width: 110px;
+    padding: 5px 0;
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 3px solid #472400;
+  }
+  
+  .accounts-menu:hover .sub-menu-6 {
+    display: block;
+    border-bottom: 3px solid #472400;
+  }
+  
+  .accounts-menu:hover {
+    border-bottom: none;
+  }
+  
+  .accounts-menu-label:hover {
+    border-bottom: 3px solid #703901;
+  }
+  
+  .sub-menu-6 {
+    display: none;
+    position: absolute;
+    margin: 10px;
+    left: 680px;
+    background: url(./assets/templatemo_menu_bg.gif);
+    top: 29px;
+    border-bottom: 3px solid #472400;
+  }
+  /* end of account */
