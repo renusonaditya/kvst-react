@@ -3,6 +3,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { About, Main, Rituals } from "./pages";
 
 import "./App.css";
+import { Trust } from "./pages/Trust";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="main" element={<Main />} />
           <Route path="about" element={<About />} />
           <Route path="rituals" element={<Rituals />} />
+          <Route path="trust" element={<Trust />} />
           <Route path="" element={<Navigate to="main" />} />
         </Routes>
       </div>
