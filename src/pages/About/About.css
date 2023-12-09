@@ -1,0 +1,550 @@
+#abtpl {
+  position: relative;
+  top: 80px;
+  left: 40px;
+}
+
+#about_temple_panel {
+  position: relative;
+}
+#about_temple_section {
+  position: relative;
+  text-align: right;
+  right: 200px;
+  top: -130px;
+}
+
+#about_temple_section ul li {
+  list-style: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#about_temple_section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#about_temple_info {
+  position: relative;
+  right: -700px;
+  top: -90px;
+  text-align: left;
+  line-height: 20px;
+}
+
+#about_temple_info ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#about_temple_info1 {
+  position: relative;
+  right: -700px;
+  top: -75px;
+  text-align: left;
+  line-height: 20px;
+}
+
+#about_temple_info1 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#about_temple_info2 {
+  position: relative;
+  text-align: left;
+
+  line-height: 20px;
+  top: -60px;
+}
+
+#about_temple_info2 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#about_temple_info4 {
+  position: relative;
+  text-align: left;
+
+  line-height: 20px;
+  top: -60px;
+}
+
+#about_temple_info4 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#about_temple_info5 {
+  position: relative;
+  text-align: left;
+
+  line-height: 20px;
+  top: -60px;
+}
+
+#about_temple_info5 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#about_temple_info6 {
+  position: relative;
+  text-align: left;
+  line-height: 20px;
+  top: -60px;
+}
+
+#about_temple_info6 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*end of About Temple*/
+
+#History_panel {
+  position: relative;
+  right: -640px;
+}
+
+#History_section {
+  position: relative;
+  text-align: center;
+  right: 350px;
+  top: -370px;
+}
+
+#History_section ul li {
+  list-style: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#History_section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#history_info {
+  position: relative;
+  text-align: left;
+  line-height: 20px;
+  top: -330px;
+}
+
+#history_info ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#history_info1 {
+  position: relative;
+  text-align: left;
+  line-height: 20px;
+  top: -310px;
+}
+
+#history_info1 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#history_info2 {
+  position: relative;
+  text-align: left;
+  line-height: 20px;
+  top: -305px;
+}
+
+#history_info2 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#history_info3 {
+  position: relative;
+  text-align: left;
+  line-height: 20px;
+  top: -300px;
+}
+
+#history_info3 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*End of the History*/
+
+#gen_inf {
+  position: relative;
+  top: -240px;
+  left: 40px;
+}
+
+#general_section {
+  position: relative;
+  text-align: center;
+  left: 320px;
+  top: -548px;
+}
+
+#general_section ul li {
+  list-style: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#general_section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#main {
+  position: relative;
+  text-align: center;
+  right: -105px;
+  top: -510px;
+}
+
+#main ul li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#main ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#Dwaras {
+  position: relative;
+  text-align: center;
+  left: 130px;
+  top: -500px;
+  line-height: 10px;
+}
+
+#Dwaras ul li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#Dwaras ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#history_info ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+/*General information*/
+#gen1 {
+  position: relative;
+  text-align: left;
+  left: 660px;
+  line-height: 30px;
+  top: -500px;
+}
+#gen1 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#gen2 {
+  position: relative;
+  text-align: left;
+  left: 660px;
+  line-height: 20px;
+  top: -500px;
+}
+#gen2 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#gen3 {
+  position: relative;
+  text-align: left;
+  left: 660px;
+  line-height: 20px;
+  top: -500px;
+}
+#gen3 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#gen4 {
+  position: relative;
+  text-align: left;
+  left: 660px;
+  line-height: 20px;
+  top: -500px;
+}
+#gen4 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#Diety {
+  position: relative;
+  text-align: left;
+  top: -480px;
+  line-height: 10px;
+}
+
+#Diety ul li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#Diety ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#gen5 {
+  position: relative;
+  text-align: left;
+  line-height: 20px;
+  top: -480px;
+}
+#gen5 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#gen6 {
+  position: relative;
+  text-align: left;
+  left: -40px;
+  line-height: 20px;
+  top: -480px;
+}
+#gen6 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#shikaram {
+  position: relative;
+  text-align: left;
+  top: -400px;
+  line-height: 10px;
+}
+
+#shikaram ul li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#shikaram ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#gen6 {
+  position: relative;
+  text-align: left;
+  left: 0px;
+  line-height: 20px;
+  top: -380px;
+}
+#gen6 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#shikarami {
+  position: relative;
+  top: -330px;
+  right: -500px;
+}
+
+#gen7 {
+  position: relative;
+  text-align: left;
+
+  line-height: 20px;
+  top: -600px;
+}
+#gen7 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#upalaya {
+  position: relative;
+  text-align: left;
+  right: -280px;
+  top: -545px;
+  line-height: 10px;
+}
+
+#upalaya ul li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#upalaya ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#gen8 {
+  position: relative;
+  text-align: left;
+  right: -280px;
+  line-height: 20px;
+  top: -510px;
+}
+#gen8 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+#upalayai {
+  position: relative;
+  top: -320px;
+  left: 20px;
+}
+
+#nandig {
+  position: relative;
+  text-align: left;
+
+  top: -580px;
+  line-height: 10px;
+}
+
+#nandig ul li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#nandig ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#gen9 {
+  position: relative;
+  text-align: left;
+
+  line-height: 20px;
+  top: -540px;
+}
+#gen9 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#nandis {
+  position: relative;
+  top: -368px;
+  right: -500px;
+}
+
+#utsav {
+  position: relative;
+  text-align: left;
+  left: 450px;
+  top: -675px;
+  line-height: 10px;
+}
+
+#utsav ul li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#utsav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#gen10 {
+  position: relative;
+  text-align: left;
+  left: 450px;
+  line-height: 20px;
+  top: -625px;
+}
+#gen10 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#umurti {
+  position: relative;
+  top: -455px;
+  left: 20px;
+}
+
+#well2 {
+  position: relative;
+  text-align: right;
+  top: -950px;
+  right: 40px;
+}
+#well {
+  position: relative;
+  text-align: left;
+
+  top: -830px;
+  line-height: 10px;
+}
+
+#well ul li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#well ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#gen11 {
+  position: relative;
+  text-align: left;
+  line-height: 20px;
+  top: -790px;
+}
+#gen11 ul li a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
