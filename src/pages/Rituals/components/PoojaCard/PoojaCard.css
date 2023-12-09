@@ -1,0 +1,56 @@
+.main-header1 {
+  color: white;
+  display: flex;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.Nitya_puja {
+  color: white;
+  display: flex;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 0;
+  margin-left: 60px;
+}
+
+.Nitya_puja_list {
+  color: white;
+  display: flex;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 20px;
+  padding-left: 0;
+  margin-left: 60px;
+}
+
+.rituals-puja-card {
+  color: white;
+  display: flex;
+  margin: 60px;
+}
+
+.image-box {
+  width: 177px;
+  height: 106px;
+}
+
+.description-box {
+  width: calc(100% - 177px);
+  height: 106px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.description-header {
+  padding-left: 25px;
+  font-weight: bold;
+}
+
+.description-content {
+  padding: 25px;
+  width: 100%;
+}

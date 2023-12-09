@@ -1,16 +1,17 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { PoojaCard } from "./components/PoojaCard";
+
+import { nithyaPuja } from "./components/config/nithyaPuja";
+import { specialPuja } from "./components/config/specialPuja";
+import { homas } from "./components/config/homas";
 
 export const Rituals = () => {
-  const navigate = useNavigate();
-
-  const navigateToMain = () => {
-    navigate("/main");
-  };
   return (
     <>
-      <h2>Rituals Page</h2>
-      <button onClick={navigateToMain}>Click to goto Main Page</button>
+      <div class="main-header1">RITUALS</div>
+      <PoojaCard data={nithyaPuja} />
+      <PoojaCard data={specialPuja} />
+      <PoojaCard data={homas} />
     </>
   );
 };
