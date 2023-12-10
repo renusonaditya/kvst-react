@@ -1,16 +1,18 @@
 export const menu = [
   {
     label: "Home",
+    redirectTo: "/home",
     options: [],
   },
   {
     label: "About",
+    redirectTo: "/about",
     options: [
       {
-        label: "History",
+        label: "About Temple",
       },
       {
-        label: "About Temple",
+        label: "History",
       },
       {
         label: "General Information",
@@ -19,9 +21,11 @@ export const menu = [
   },
   {
     label: "Rituals",
+    redirectTo: "/rituals",
     options: [
       {
         label: "Nitya Puja",
+        redirectTo: "/rituals",
       },
       {
         label: "Homas",
@@ -33,6 +37,7 @@ export const menu = [
   },
   {
     label: "Trust",
+    redirectTo: "/trust",
     options: [
       {
         label: "About Trust",
@@ -49,7 +54,8 @@ export const menu = [
     ],
   },
   {
-    label: "Donation",
+    label: "Donations",
+    redirectTo: "/donations",
     options: [
       {
         label: "Hundi",
@@ -61,6 +67,7 @@ export const menu = [
   },
   {
     label: "Contact",
+    redirectTo: "/contact",
     options: [
       {
         label: "Help Desk",
@@ -75,6 +82,7 @@ export const menu = [
   },
   {
     label: "Accounts",
+    redirectTo: "/accounts",
     options: [
       {
         label: "Hundi",
@@ -89,5 +97,6 @@ export const menu = [
   },
   {
     label: "Online Services",
+    redirectTo: "/online-services",
   },
 ];

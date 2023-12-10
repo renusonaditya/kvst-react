@@ -2,22 +2,28 @@ import { Footer, Header, MenuBar } from "./components";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { About, Donations, Main, Rituals, Trust } from "./pages";
 
-import "./App.css";
+import "./App.scss";
+
+const rootClassName = "app";
+const appContainer = rootClassName + "__container";
+const contentWrapper = appContainer + "__content-wrapper";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <MenuBar />
-      <div id="templatemo_content_container">
-        <Routes>
-          <Route path="main" element={<Main />} />
-          <Route path="about" element={<About />} />
-          <Route path="rituals" element={<Rituals />} />
-          <Route path="trust" element={<Trust />} />
-          <Route path="donations" element={<Donations />} />
-          <Route path="" element={<Navigate to="main" />} />
-        </Routes>
+      <div className={appContainer}>
+        <div className={contentWrapper}>
+          <Routes>
+            <Route path="home" element={<Main />} />
+            <Route path="about" element={<About />} />
+            <Route path="rituals" element={<Rituals />} />
+            <Route path="trust" element={<Trust />} />
+            <Route path="donations" element={<Donations />} />
+            <Route path="" element={<Navigate to="home" />} />
+          </Routes>
+        </div>
       </div>
       <Footer />
     </BrowserRouter>

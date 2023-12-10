@@ -1,0 +1,18 @@
+.app {
+  &__container {
+    overflow: visible;
+    height: 100%;
+
+    margin: 0 auto;
+    background: url(./assets/templatemo_content_bg.gif);
+    background-repeat: repeat;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+    &__content-wrapper {
+      width: 1366px;
+    }
+  }
+}

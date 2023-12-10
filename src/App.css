@@ -1,9 +1,0 @@
-#templatemo_content_container {
-  overflow: visible;
-  height: 100%;
-
-  margin: 0 auto;
-  background: url(./assets/templatemo_content_bg.gif);
-  background-repeat: repeat;
-  position: relative;
-}
