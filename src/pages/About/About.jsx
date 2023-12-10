@@ -1,17 +1,23 @@
-import His from "./assets/His.jpg";
-import NewT2 from "./assets/NewT2.jpg";
-import ahan2 from "./assets/ahan2.jpg";
-import nandis from "./assets/nandis.jpg";
-import shikaram from "./assets/shikaram.jpg";
-import utsavmurtis from "./assets/utsavmurtis.jpg";
-import well2 from "./assets/well2.jpg";
-
+import { ContentCard } from "../../components";
 import "./About.css";
+import { cards } from "./config/cards";
 
 export const About = () => {
   return (
     <>
-      <div id="about_temple_panel">
+      {cards &&
+        Boolean(cards.length) &&
+        cards.map((eachCard, cardIndex) => {
+          const isInversedContentCard = Boolean(cardIndex % 2);
+          return (
+            <ContentCard
+              isInversedContentCard={isInversedContentCard}
+              cardData={eachCard}
+            />
+          );
+        })}
+
+      {/* <div id="about_temple_panel">
         <div id="about_temple_section">
           <ul>
             <li>
@@ -514,7 +520,7 @@ export const About = () => {
         <div id="well2">
           <img src={well2} />
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

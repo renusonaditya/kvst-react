@@ -1,0 +1,44 @@
+.content-card {
+  color: #fff;
+
+  &__image-and-content {
+    display: flex;
+
+    justify-content: space-evenly;
+
+    &__side-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      padding: 50px;
+
+      gap: 50px;
+      &__title {
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 2px;
+      }
+      &__subtitle {
+        text-align: left;
+        line-height: 20px;
+        letter-spacing: 2px;
+        font-size: 16px;
+      }
+    }
+    &__image {
+      padding: 50px;
+      width: 49%;
+    }
+  }
+
+  &__description {
+    text-align: left;
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-size: 16px;
+
+    padding: 0 50px 50px;
+  }
+}
