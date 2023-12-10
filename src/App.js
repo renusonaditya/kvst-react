@@ -1,4 +1,4 @@
-import { Footer, Header, Menu } from "./components";
+import { Footer, Header, MenuBar } from "./components";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { About, Donations, Main, Rituals, Trust } from "./pages";
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <Menu />
+      <MenuBar />
       <div id="templatemo_content_container">
         <Routes>
           <Route path="main" element={<Main />} />

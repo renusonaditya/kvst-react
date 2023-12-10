@@ -1,0 +1,60 @@
+.menu-bar {
+  display: flex;
+
+  width: 100%;
+
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+
+  background: url(./assets/templatemo_menu_bg.gif) repeat;
+
+  &__menu-item {
+    position: relative;
+
+    &__button {
+      color: #fff;
+      width: 110px;
+      padding: 5px 0;
+      margin-right: 5px;
+      font-size: 12px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      background-color: transparent;
+      border: none;
+      border-bottom: 3px solid #703901;
+      cursor: pointer;
+    }
+
+    &__options {
+      display: none;
+
+      max-width: 110px;
+      position: absolute;
+
+      z-index: 10;
+
+      &__option {
+        width: 110px;
+
+        &__button {
+          width: 100%;
+
+          color: #fff;
+          background: url(./assets/templatemo_menu_bg.gif);
+          border-bottom: 3px solid #472400;
+          background-size: contain;
+
+          padding: 5px;
+
+          cursor: pointer;
+        }
+      }
+    }
+
+    &:hover &__options {
+      display: block;
+    }
+  }
+}
