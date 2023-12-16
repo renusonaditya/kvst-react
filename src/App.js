@@ -1,6 +1,6 @@
 import { Footer, Header, MenuBar } from "./components";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import { About, Donations, Main, Rituals, Trust } from "./pages";
+import { About, Contact, Donations, Main, Rituals, Trust } from "./pages";
 
 import "./App.scss";
 
@@ -18,6 +18,7 @@ function App() {
           <Routes>
             <Route path="home" element={<Main />} />
             <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
             <Route path="rituals" element={<Rituals />} />
             <Route path="trust" element={<Trust />} />
             <Route path="donations" element={<Donations />} />

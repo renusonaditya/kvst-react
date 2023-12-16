@@ -1,3 +1,5 @@
+export { Contact } from "./Contact";
+
 export { Donations } from "./Donations";
 
 export { Trust } from "./Trust";

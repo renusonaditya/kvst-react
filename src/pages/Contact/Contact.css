@@ -1,0 +1,69 @@
+/*Contact section start*/
+
+#templatemo_banner_panel {
+    position: relative;
+    top: 10px;
+}
+
+#ban {
+    position: relative;
+    size: 90%;
+}
+
+.Contact {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.Trustee {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.Reach {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.Reach_det {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.Timings {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.rituals-puja-card {
+    color: white;
+    display: flex;
+    margin: 60px;
+}
+
+.image-box {
+    width: 50px;
+    height: 50px;
+}
+
+.description-box {
+    width: calc(100% - 50px);
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.description-content {
+    padding: 10px;
+    width: 100%;
+}
+
+/*End of Contact section*/
