@@ -2,16 +2,16 @@ import React from "react";
 
 import bus from './assets/bus.jpeg'
 import contactus from './assets/contactus.jpg'
-import facebook from './assets/facebook.jpeg'
+import facebook from './assets/fb_icon.png'
 import flight from './assets/flight.jpeg'
-import gmail from './assets/gmail.jpeg'
-import instagram from './assets/instagram.jpeg'
+import gmail from './assets/gmail_icon.png'
+import instagram from './assets/insta_icon.png'
 import lingam from './assets/lingam.png'
-import mobile from './assets/mobile.jpeg'
+import mobile from './assets/cell_icon.png'
 import train from './assets/train.jpeg'
-import website from './assets/website.jpeg'
-import whatsapp from './assets/whatsapp.jpeg'
-import youtube from './assets/youtube.jpeg'
+import website from './assets/website_icon.png'
+import whatsapp from './assets/wha_icon.png'
+import youtube from './assets/yout_icon.png'
 
 import './Contact.css';
 
@@ -28,7 +28,7 @@ export const Contact = () => {
         <div className="contact-rituals-puja-container">
             <div class="contact-rituals-puja-card">
                 <div class="contact-image-box">
-                    <img alt="mobile" src={mobile} id="icon" />
+                    <img alt="mobile" src={mobile} id="icon" className="contact-image" />
                 </div>
                 <div class="contact-description-box">
                     <div class="contact-description-content">+91-9949441095
@@ -40,7 +40,7 @@ export const Contact = () => {
 
             <div class="contact-rituals-puja-card">
                 <div class="contact-image-box">
-                    <img alt="gmail" src={gmail} id="gmail" />
+                    <img alt="gmail" src={gmail} id="gmail" className="contact-image" />
                 </div>
                 <div class="contact-description-box">
                     <div class="contact-description-content">Reach us on kashivishwanathtemplemedchal@gmail.com
@@ -52,7 +52,7 @@ export const Contact = () => {
 
             <div class="contact-rituals-puja-card">
                 <div class="contact-image-box">
-                    <img alt="instagram" src={instagram} id="insta" />
+                    <img alt="instagram" src={instagram} id="insta" className="contact-image" />
                 </div>
                 <div class="contact-description-box">
                     <div class="contact-description-content">kashivishwanathtemplemedchal
@@ -64,7 +64,7 @@ export const Contact = () => {
 
             <div class="contact-rituals-puja-card">
                 <div class="contact-image-box">
-                    <img alt="facebook" src={facebook} id="fb" />
+                    <img alt="facebook" src={facebook} id="fb" className="contact-image" />
                 </div>
                 <div class="contact-description-box">
                     <div class="contact-description-content">Kashi Vishwanath Temple, Medchal
@@ -77,7 +77,7 @@ export const Contact = () => {
 
             <div class="contact-rituals-puja-card">
                 <div class="contact-image-box">
-                    <img alt="whatsapp" src={whatsapp} id="wha" />
+                    <img alt="whatsapp" src={whatsapp} id="wha" className="contact-image" />
                 </div>
                 <div class="contact-description-box">
                     <div class="contact-description-content">+91-9949441095
@@ -89,7 +89,7 @@ export const Contact = () => {
 
             <div class="contact-rituals-puja-card">
                 <div class="contact-image-box">
-                    <img alt="website" src={website} id="web" />
+                    <img alt="website" src={website} id="web" className="contact-image" />
                 </div>
                 <div class="contact-description-box">
                     <div class="contact-description-content">kashivishwanathtemplemedchal.org
@@ -101,7 +101,7 @@ export const Contact = () => {
 
             <div class="contact-rituals-puja-card">
                 <div class="contact-image-box">
-                    <img alt="youtube" src={youtube} id="you" />
+                    <img alt="youtube" src={youtube} id="you" className="contact-image" />
                 </div>
                 <div class="contact-description-box">
                     <div class="contact-description-content">Kashi Vishwanath Temple, Medchal
@@ -112,7 +112,7 @@ export const Contact = () => {
 
             <div class="contact-rituals-puja-card">
                 <div class="contact-image-box">
-                    <img alt="facebook" src={facebook} id="fb" />
+                    <img alt="facebook" src={facebook} id="fb" className="contact-image" />
                 </div>
                 <div class="contact-description-box">
                     <div class="contact-description-content">Kashi Vishwanath Temple, Medchal Page
