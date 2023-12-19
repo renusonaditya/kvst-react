@@ -1,0 +1,49 @@
+.content-card {
+  color: #fff;
+
+  &__image-and-content {
+    display: flex;
+
+    justify-content: space-between;
+    padding: 50px;
+    gap: 50px;
+
+    &__side-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      padding: 50px;
+
+      gap: 50px;
+
+      &__title {
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      &__subtitle {
+        text-align: left;
+        line-height: 20px;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 50px;
+      }
+    }
+
+    &__image {
+      width: 49%;
+    }
+  }
+
+  &__description {
+    text-align: left;
+    line-height: 20px;
+    font-size: 16px;
+
+    padding: 0 50px 50px;
+  }
+}
