@@ -1,10 +1,10 @@
 import charity from "./assets/charity.jpg";
 
-import "./Donations.css";
+import "./Donations.scss";
 
 export const Donations = () => {
   return (
-    <>
+    <div className="donations-page">
       <div id="Donation_panel">
         <div id="Donation_section">
           <div id="Donation_pic_section">
@@ -149,6 +149,6 @@ export const Donations = () => {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 };

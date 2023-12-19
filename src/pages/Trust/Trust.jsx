@@ -1,13 +1,14 @@
-import "./Trust.css";
 import gaushala from "./assets/gaushala.jpg";
 import pro_anna from "./assets/pro_anna.jpg";
 import project1 from "./assets/project1.jpg";
 import trust_img from "./assets/trust_img.jpg";
 import pro_gop from "./assets/pro_gop.jpg";
 
+import "./Trust.scss";
+
 export const Trust = () => {
   return (
-    <>
+    <div className="trust-page">
       <div id="Trust_panel">
         <div id="Trust_section">
           <div id="Trust_pic_section">
@@ -94,7 +95,7 @@ export const Trust = () => {
           </ul>
         </div>
 
-        <div id="committee_d">
+        <div id="trust-committee_d">
           <ul>
             <li>
               <a href="#">
@@ -300,6 +301,6 @@ export const Trust = () => {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 };

@@ -1,4 +1,4 @@
-import { ContentCard } from "./ContentCard";
+export { ContentCard } from "./ContentCard";
 
 export { Footer } from "./Footer";
 export { Header } from "./Header";

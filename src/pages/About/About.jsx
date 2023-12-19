@@ -1,6 +1,6 @@
 import React from "react";
 import { cards } from "./config/cards";
-import { ContentCard } from "../../components/ContentCard";
+import { ContentCard } from "../../components";
 
 import "./About.css";
 

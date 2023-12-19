@@ -1,21 +1,18 @@
 #Trust_panel {
-  position: relative;
 }
 #Trust_section {
-  position: relative;
+  
   text-align: center;
-  top: 30px;
 }
 
 #trust_ban {
-  position: relative;
+  
   max-width: 95%;
   max-height: auto;
 }
 #ABOUT_TRUST {
-  position: relative;
+  
   text-align: center;
-  top: 50px;
 }
 
 #ABOUT_TRUST ul li a {
@@ -26,9 +23,8 @@
 }
 
 #about_trust_desc {
-  position: relative;
+  
   text-align: left;
-  top: 70px;
 }
 
 #about_trust_desc ul li a {
@@ -38,15 +34,13 @@
 }
 
 #about_temple_info2 {
-  position: relative;
+  
   text-align: left;
   line-height: 20px;
-  top: -60px;
 }
 
 #trust_detail {
-  position: relative;
-  top: 80px;
+  
 }
 #trust_detail ul li a {
   font-weight: bold;
@@ -57,9 +51,8 @@
 }
 
 #trust_mem {
-  position: relative;
+  
   text-align: left;
-  top: 80px;
 }
 
 #trust_mem ul li a {
@@ -69,9 +62,8 @@
 }
 
 #committee {
-  position: relative;
+  
   text-align: left;
-  top: 100px;
 }
 
 #committee ul li a {
@@ -81,24 +73,18 @@
   text-decoration: none;
 }
 
-#committee_d {
-  position: relative;
-  text-align: left;
-  top: 105px;
+#trust-committee_d {
 }
 
-#committee_d ul li a {
+#trust-committee_d ul li a {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
 }
 
-/*end of About Temple*/
-/*special puja Section*/
 #project {
-  position: relative;
+  
   text-align: center;
-  top: 80px;
 }
 
 #project ul li a {
@@ -109,16 +95,14 @@
 }
 
 #project1 {
-  position: relative;
+  
   max-width: 95%;
   max-height: auto;
-  top: 100px;
 }
 
 #pro_projects {
-  position: relative;
+  
   text-align: left;
-  top: 130px;
 }
 
 #pro_projects ul li a {
@@ -129,10 +113,8 @@
 }
 
 #pro_projects_d {
-  position: relative;
+  
   text-align: left;
-  top: 100px;
-  left: 200px;
 }
 
 #pro_projects_d ul li a {
@@ -142,16 +124,12 @@
 }
 
 #pro_gop {
-  position: relative;
-  top: 120;
-  left: -430;
+  
 }
 
 #pro_projects_d2 {
-  position: relative;
+  
   text-align: left;
-  top: -250px;
-  left: 440px;
 }
 
 #pro_projects_d2 ul li a {
@@ -161,14 +139,12 @@
 }
 
 #goshala {
-  position: relative;
-  left: 215px;
+  
 }
 
 #goshala_d {
-  position: relative;
+  
   text-align: left;
-  top: -280px;
 }
 
 #goshala_d ul li a {
@@ -178,15 +154,12 @@
 }
 
 #proj_annad_pic {
-  position: relative;
-  left: -420px;
+  
 }
 
 #annadanam_d {
-  position: relative;
+  
   text-align: left;
-  top: -280px;
-  left: 450px;
 }
 
 #annadanam_d ul li a {
@@ -202,7 +175,7 @@
 }
 
 #emp_det {
-  position: relative;
+  
   text-align: center;
 }
 
@@ -214,15 +187,12 @@
 }
 
 #Palki_pic {
-  position: relative;
-  left: 40px;
-  top: 30px;
+  
 }
 
 #emp_det_d {
-  position: relative;
+  
   text-align: left;
-  top: 35px;
 }
 
 #emp_det_d ul li a {
@@ -230,4 +200,8 @@
   font-weight: normal;
   color: #fff;
   text-decoration: none;
+}
+
+.trust-page {
+  line-height: 30px;
 }
