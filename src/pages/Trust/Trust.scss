@@ -7,15 +7,19 @@
 
 #trust_ban {
   
-  max-width: 95%;
-  max-height: auto;
+  max-width: 1366px;
+  height: auto;
+
+  margin-top: 50px;
 }
 #ABOUT_TRUST {
   
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-#ABOUT_TRUST ul li a {
+#ABOUT_TRUST  a {
   font-size: 30px;
   color: #fff;
   text-decoration: none;
@@ -25,9 +29,11 @@
 #about_trust_desc {
   
   text-align: left;
+  width: 1200px;
+  margin:auto;
 }
 
-#about_trust_desc ul li a {
+#about_trust_desc  a {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
@@ -40,22 +46,30 @@
 }
 
 #trust_detail {
-  
+  width: 1200px;
+  margin:auto;
+
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
-#trust_detail ul li a {
+#trust_detail  a {
   font-weight: bold;
   font-size: 16px;
   color: #fff;
   text-decoration: none;
   list-style: none;
+
+  
 }
 
 #trust_mem {
   
   text-align: left;
+  width: 1200px;
+  margin:auto;
 }
 
-#trust_mem ul li a {
+#trust_mem  a {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
@@ -64,9 +78,14 @@
 #committee {
   
   text-align: left;
+  width: 1200px;
+  margin:auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
+
 }
 
-#committee ul li a {
+#committee  a {
   font-weight: bold;
   font-size: 20px;
   color: #fff;
@@ -74,9 +93,12 @@
 }
 
 #trust-committee_d {
+
+  width: 1200px;
+  margin:auto;
 }
 
-#trust-committee_d ul li a {
+#trust-committee_d  a {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
@@ -85,9 +107,11 @@
 #project {
   
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-#project ul li a {
+#project  a {
   font-size: 30px;
   color: #fff;
   text-decoration: none;
@@ -96,28 +120,30 @@
 
 #project1 {
   
-  max-width: 95%;
+  max-width: 1366px;
   max-height: auto;
 }
 
 #pro_projects {
   
-  text-align: left;
+  text-align: center;
+
+  margin-top: 50px;
 }
 
-#pro_projects ul li a {
+#pro_projects  a {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 24px;
   color: #fff;
   text-decoration: none;
 }
 
 #pro_projects_d {
   
-  text-align: left;
+  text-align: center;
 }
 
-#pro_projects_d ul li a {
+#pro_projects_d  a {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
@@ -132,7 +158,7 @@
   text-align: left;
 }
 
-#pro_projects_d2 ul li a {
+#pro_projects_d2  a {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
@@ -147,14 +173,10 @@
   text-align: left;
 }
 
-#goshala_d ul li a {
+#goshala_d  a {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
-}
-
-#proj_annad_pic {
-  
 }
 
 #annadanam_d {
@@ -162,13 +184,13 @@
   text-align: left;
 }
 
-#annadanam_d ul li a {
+#annadanam_d  a {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
 }
 
-#annadanam_d ul li a {
+#annadanam_d  a {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
@@ -177,25 +199,28 @@
 #emp_det {
   
   text-align: center;
+
+  margin-top: 50px;
+
+  margin-bottom: 50px;
 }
 
-#Palki ul li a {
+#Palki  a {
   font-weight: bold;
   font-size: 16px;
   color: #fff;
   text-decoration: none;
 }
 
-#Palki_pic {
-  
-}
-
 #emp_det_d {
   
   text-align: left;
+  
+  width: 1200px;
+  margin: auto;
 }
 
-#emp_det_d ul li a {
+#emp_det_d  a {
   font-size: 16px;
   font-weight: normal;
   color: #fff;
@@ -204,4 +229,14 @@
 
 .trust-page {
   line-height: 30px;
+}
+
+.project-card {
+  display: flex;
+
+  justify-content: space-evenly;
+
+  margin-top: 50px;
+
+  align-items: center;
 }
