@@ -22,28 +22,27 @@
         font-size: 30px;
         font-weight: bold;
 
-        line-height: 40px;
       }
 
       &__subtitle {
         text-align: left;
-        line-height: 20px;
         font-size: 16px;
         display: flex;
         flex-direction: column;
         justify-content: start;
-        gap: 50px;
+        gap: 25px;
       }
     }
 
     &__image {
       width: 49%;
+      height: fit-content;
+      align-self: start;
     }
   }
 
   &__description {
     text-align: left;
-    line-height: 20px;
     font-size: 16px;
 
     padding: 0 50px 50px;
