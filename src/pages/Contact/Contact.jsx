@@ -18,7 +18,7 @@ import './Contact.css';
 export const Contact = () => {
     return <>
         <div className="contact-templatemo_banner_panel">
-            <img alt="contactus" src={contactus} height={600} width="auto" />
+            <img alt="contactus" src={contactus} height={500} width={1200} />
         </div>
 
 
@@ -52,7 +52,9 @@ export const Contact = () => {
 
             <div class="contact-rituals-puja-card">
                 <div class="contact-image-box">
-                    <img alt="instagram" src={instagram} id="insta" className="contact-image" />
+                    <a href="https://www.instagram.com/kashivishwanathtemplemedchal?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+                        <img alt="instagram" src={instagram} id="insta" className="contact-image" />
+                    </a>
                 </div>
                 <div class="contact-description-box">
                     <div class="contact-description-content">kashivishwanathtemplemedchal
@@ -64,7 +66,9 @@ export const Contact = () => {
 
             <div class="contact-rituals-puja-card">
                 <div class="contact-image-box">
-                    <img alt="facebook" src={facebook} id="fb" className="contact-image" />
+                    <a href="https://www.facebook.com/profile.php?id=100066134606966&mibextid=hIlR13" target="_blank">
+                        <img alt="facebook" src={facebook} id="fb" className="contact-image" />
+                    </a>
                 </div>
                 <div class="contact-description-box">
                     <div class="contact-description-content">Kashi Vishwanath Temple, Medchal
@@ -101,7 +105,9 @@ export const Contact = () => {
 
             <div class="contact-rituals-puja-card">
                 <div class="contact-image-box">
-                    <img alt="youtube" src={youtube} id="you" className="contact-image" />
+                    <a href="http://www.youtube.com/@kvstmedchal" target="_blank">
+                        <img alt="youtube" src={youtube} id="you" className="contact-image" />
+                    </a>
                 </div>
                 <div class="contact-description-box">
                     <div class="contact-description-content">Kashi Vishwanath Temple, Medchal
@@ -129,7 +135,7 @@ export const Contact = () => {
         <div class="Reach_det">Sri Kashi Vishwanath temple is located in Medchal City which is around 23 kms from
             Hyderabad</div>
         <div class="Timings">Temple Timings<br /> 5:00 am to 11:00 am <br />
-            5:00 pm to 8:00 am</div>
+            5:00 pm to 8:00 pm</div>
 
         <div class="rituals-reach-card">
             <div class="reach-box">
