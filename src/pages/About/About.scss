@@ -28,7 +28,7 @@
 #about_temple_info {
   position: relative;
   text-align: left;
-  line-height: 20px;
+  
 }
 
 #about_temple_info ul li a {
@@ -42,7 +42,7 @@
   right: -700px;
   top: -75px;
   text-align: left;
-  line-height: 20px;
+  
 }
 
 #about_temple_info1 ul li a {
@@ -55,7 +55,7 @@
   position: relative;
   text-align: left;
 
-  line-height: 20px;
+  
   top: -60px;
 }
 
@@ -69,7 +69,7 @@
   position: relative;
   text-align: left;
 
-  line-height: 20px;
+  
   top: -60px;
 }
 
@@ -83,7 +83,7 @@
   position: relative;
   text-align: left;
 
-  line-height: 20px;
+  
   top: -60px;
 }
 
@@ -96,7 +96,7 @@
 #about_temple_info6 {
   position: relative;
   text-align: left;
-  line-height: 20px;
+  
   top: -60px;
 }
 
@@ -134,7 +134,7 @@
 #history_info {
   position: relative;
   text-align: left;
-  line-height: 20px;
+  
   top: -330px;
 }
 
@@ -147,7 +147,7 @@
 #history_info1 {
   position: relative;
   text-align: left;
-  line-height: 20px;
+  
   top: -310px;
 }
 
@@ -160,7 +160,7 @@
 #history_info2 {
   position: relative;
   text-align: left;
-  line-height: 20px;
+  
   top: -305px;
 }
 
@@ -173,7 +173,7 @@
 #history_info3 {
   position: relative;
   text-align: left;
-  line-height: 20px;
+  
   top: -300px;
 }
 
@@ -232,7 +232,7 @@
   text-align: center;
   left: 130px;
   top: -500px;
-  line-height: 10px;
+  
 }
 
 #Dwaras ul li {
@@ -256,7 +256,6 @@
   position: relative;
   text-align: left;
   left: 660px;
-  line-height: 30px;
   top: -500px;
 }
 #gen1 ul li a {
@@ -269,7 +268,7 @@
   position: relative;
   text-align: left;
   left: 660px;
-  line-height: 20px;
+  
   top: -500px;
 }
 #gen2 ul li a {
@@ -282,7 +281,7 @@
   position: relative;
   text-align: left;
   left: 660px;
-  line-height: 20px;
+  
   top: -500px;
 }
 #gen3 ul li a {
@@ -295,7 +294,7 @@
   position: relative;
   text-align: left;
   left: 660px;
-  line-height: 20px;
+  
   top: -500px;
 }
 #gen4 ul li a {
@@ -308,7 +307,7 @@
   position: relative;
   text-align: left;
   top: -480px;
-  line-height: 10px;
+  
 }
 
 #Diety ul li {
@@ -325,7 +324,7 @@
 #gen5 {
   position: relative;
   text-align: left;
-  line-height: 20px;
+  
   top: -480px;
 }
 #gen5 ul li a {
@@ -338,7 +337,7 @@
   position: relative;
   text-align: left;
   left: -40px;
-  line-height: 20px;
+  
   top: -480px;
 }
 #gen6 ul li a {
@@ -351,7 +350,7 @@
   position: relative;
   text-align: left;
   top: -400px;
-  line-height: 10px;
+  
 }
 
 #shikaram ul li {
@@ -369,7 +368,7 @@
   position: relative;
   text-align: left;
   left: 0px;
-  line-height: 20px;
+  
   top: -380px;
 }
 #gen6 ul li a {
@@ -388,7 +387,7 @@
   position: relative;
   text-align: left;
 
-  line-height: 20px;
+  
   top: -600px;
 }
 #gen7 ul li a {
@@ -402,7 +401,7 @@
   text-align: left;
   right: -280px;
   top: -545px;
-  line-height: 10px;
+  
 }
 
 #upalaya ul li {
@@ -420,7 +419,7 @@
   position: relative;
   text-align: left;
   right: -280px;
-  line-height: 20px;
+  
   top: -510px;
 }
 #gen8 ul li a {
@@ -439,7 +438,7 @@
   text-align: left;
 
   top: -580px;
-  line-height: 10px;
+  
 }
 
 #nandig ul li {
@@ -457,7 +456,7 @@
   position: relative;
   text-align: left;
 
-  line-height: 20px;
+  
   top: -540px;
 }
 #gen9 ul li a {
@@ -477,7 +476,7 @@
   text-align: left;
   left: 450px;
   top: -675px;
-  line-height: 10px;
+  
 }
 
 #utsav ul li {
@@ -495,7 +494,7 @@
   position: relative;
   text-align: left;
   left: 450px;
-  line-height: 20px;
+  
   top: -625px;
 }
 #gen10 ul li a {
@@ -521,7 +520,7 @@
   text-align: left;
 
   top: -830px;
-  line-height: 10px;
+  
 }
 
 #well ul li {
@@ -538,11 +537,16 @@
 #gen11 {
   position: relative;
   text-align: left;
-  line-height: 20px;
+  
   top: -790px;
 }
 #gen11 ul li a {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
+}
+
+
+.about-page {
+  line-height: 30px;
 }

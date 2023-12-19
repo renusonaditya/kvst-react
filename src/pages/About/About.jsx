@@ -2,12 +2,11 @@ import React from "react";
 import { cards } from "./config/cards";
 import { ContentCard } from "../../components";
 
-import "./About.css";
+import "./About.scss";
 
 
 export const About = () => {
-  console.info(cards);
-  return <>
+  return <div className="about-page">
     {
       cards.map(
         (eachCard, index) => {
@@ -19,5 +18,5 @@ export const About = () => {
         }
       )
     }
-  </>
+  </div>
 };
