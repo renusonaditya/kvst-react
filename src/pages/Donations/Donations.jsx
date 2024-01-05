@@ -50,7 +50,7 @@ export const Donations = () => {
                   be given at temple office. <br />
                   Donations collected will be used for maintenance and
                   development of the temple or Devotee has option to select
-                  utilising his donation for particular Seva or service
+                  utilising their donation for particular Seva or service
                   <br />
                   while donating. <br />
                   We Utilize your Donation for the Seva/Service you have
@@ -99,12 +99,12 @@ export const Donations = () => {
           <ul>
             <li>
               <a href="#">
-                Online payment allows donation from people acress the globe for
+                Online payment allows donation from people across the globe for
                 welfare of the temple. You may donate your offerings through
                 internet. <br />
                 <br />
                 UPI: Devotees May donate their offerings through UPI either
-                through GPAY, PhonePay or PAYTM. <br />
+                through GPAY, PhonePe or PAYTM. <br />
                 <br />
                 Gpay number: **********
                 <br />
@@ -134,16 +134,8 @@ export const Donations = () => {
                 <br />
                 <br />
                 <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+                
+                
               </a>
             </li>
           </ul>

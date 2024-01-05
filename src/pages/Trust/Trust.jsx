@@ -23,10 +23,10 @@ export const Trust = () => {
         <div id="about_trust_desc">
           <a href="#">
             Sri Kashi Vishwanath Temple in Medchal was constructed in the year
-            1859., Which is Maaga Maasa Shuklapaksha Triodashi Day of Siddhadra
+            1859 on the day of Maaga Maasa Shukla-paksha Triodashi Day of Siddhadra
             Nama Samvatsara according to Telugu Calender by Sri Kandukuri
             Venkata Ramayya. Since then their descendents continued maintaining
-            the temple. For the development of the temple, Present trustee Sri
+            the temple. For the development, Present trustee Sri
             Kandukuri Prabhakar formed a trust with few existing comittee
             members in the month of February 2022.
           </a>
@@ -41,7 +41,7 @@ export const Trust = () => {
 
         <div id="trust_mem">
           <a href="#">
-            The permanent Trustee for the temple is the descendent of the main
+            The permanent Trustee is the descendent of the main
             family member of Sri Kandukuri Venkata Ramayya which continues to
             the coming generations. <br />
             The trust members are:
@@ -76,8 +76,8 @@ export const Trust = () => {
 
         <div id="trust-committee_d">
           <a href="#">
-            Temple committee is formed for the development of temple and to
-            perform daily activities, rituals and festivals in the temple. All
+            Temple committee is formed for the development and to
+            perform daily activities, rituals and festivals. All
             the temple related activities are performed under the supervision of
             the committee members.
             <br />
@@ -164,7 +164,7 @@ export const Trust = () => {
               front architecture also has to be modified as per Gopuram Design.{" "}
               <br />
               <br />
-              Estimated date of completion for the construction of Gopuram by
+              Estimated year of completion for the construction of Gopuram by
               2028
             </a>
           </div>
@@ -177,7 +177,7 @@ export const Trust = () => {
               gods reside inside the cow. every year, tonnes of cow meat is
               being exported to foreign countries.
               <br />
-              In order to protect the cows, temple committee has proposal to
+              In order to protect, temple committee has proposal to
               establish gaushala in the premises
               <br />
               of the Temple. Gaushalas are existing in India since 3rd century.
@@ -206,7 +206,7 @@ export const Trust = () => {
               is most pious <br />
               and meritorious of all charity. Temple committee has proposed for
               construction of Nithya <br />
-              Annadana satram for the piligrims visiting the temple and others
+              Annadana satram for the piligrims visiting the temple
               in temple premises. Devotees
               <br />
               are requested to donate as per their ability to support the cause.
@@ -229,7 +229,7 @@ export const Trust = () => {
             1. Priest: The temple Priest is Sri Dashamukhi Rajamouli Garu. He is
             a retired headmaster and he has been doing his service in temple for
             the past 45 years. <br />
-            2. Maintenance: Temple maintenance is taken care by Lakshmi who is
+            2. Maintenance: Temple maintenance is taken care by Sakaraboina Lakshmi who is
             residing in the temple since past 35 years.
             <br />
             3. Watchman: Krishna is working as a security in the temple. He has
