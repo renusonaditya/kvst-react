@@ -96,7 +96,7 @@ export const menu = [
     ],
   },
   {
-    label: "Online Services",
-    redirectTo: "/online-services",
+    label: "Gallery",
+    redirectTo: "/gallery",
   },
 ];
