@@ -1,8 +1,8 @@
 import { menu } from "./config/menu";
 
-import "./MenuBar.scss";
+import { useNavigate, useLocation } from "react-router-dom";
 
-import { useNavigate } from "react-router-dom";
+import "./MenuBar.scss";
 
 const rootClassName = "menu-bar";
 
@@ -11,9 +11,12 @@ const menuItemButton = `${menuItem}__button`;
 const menuItemOptions = `${menuItem}__options`;
 const menuItemOption = `${menuItemOptions}__option`;
 const menuItemOptionButton = `${menuItemOption}__button`;
+const menuItemActiveButton = `${menuItemButton}--active`;
 
 export const MenuBar = () => {
   const navigate = useNavigate();
+  const location = useLocation();
+  const { pathname } = location;
 
   const redirectToSelectedPath = (path) => {
     navigate(path);
@@ -24,11 +27,15 @@ export const MenuBar = () => {
         menu.length &&
         menu.map((eachItem) => {
           const { label, options, redirectTo } = eachItem;
+
+          const isActiveTab = redirectTo === pathname;
           return (
             <div className={menuItem} key={`${menuItem}__${label}`}>
               <button
                 type="button"
-                className={menuItemButton}
+                className={`${menuItemButton} ${
+                  isActiveTab && menuItemActiveButton
+                }`}
                 onClick={() => redirectToSelectedPath(redirectTo)}
               >
                 {label}

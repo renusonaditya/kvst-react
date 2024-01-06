@@ -143,3 +143,9 @@
 a .contact-image {
   cursor: pointer;
 }
+
+.contactus {
+  width: 600px;
+  height: auto;
+  aspect-ratio: auto;
+}

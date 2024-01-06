@@ -35,34 +35,84 @@ export const Album = () => {
       </div>
       <div id="Album_Photos">
         <div class="Album_pic">
-          <a href={pic1Large} data-lightbox="my_gall">
+          <a
+            href={pic1Large}
+            data-lightbox="my_gall"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={pic1Small} alt="pic1Small" />
           </a>
-          <a href={pic2Large} data-lightbox="my_gall">
+          <a
+            href={pic2Large}
+            data-lightbox="my_gall"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={pic2Small} alt="pic2Small" />
           </a>
-          <a href={pic3Large} data-lightbox="my_gall">
+          <a
+            href={pic3Large}
+            data-lightbox="my_gall"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={pic3Small} alt="pic3Small" />
           </a>
-          <a href={pic4Large} data-lightbox="my_gall">
+          <a
+            href={pic4Large}
+            data-lightbox="my_gall"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={pic4Small} alt="pic4Small" />
           </a>
-          <a href={pic5Large} data-lightbox="my_gall">
+          <a
+            href={pic5Large}
+            data-lightbox="my_gall"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={pic5Small} alt="pic5Small" />
           </a>
-          <a href={pic6Large} data-lightbox="my_gall">
+          <a
+            href={pic6Large}
+            data-lightbox="my_gall"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={pic6Small} alt="pic6Small" />
           </a>
-          <a href={pic7Large} data-lightbox="my_gall">
+          <a
+            href={pic7Large}
+            data-lightbox="my_gall"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={pic7Small} alt="pic7Small" />
           </a>
-          <a href={pic8Large} data-lightbox="my_gall">
+          <a
+            href={pic8Large}
+            data-lightbox="my_gall"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={pic8Small} alt="pic8Small" />
           </a>
-          <a href={pic9Large} data-lightbox="my_gall">
+          <a
+            href={pic9Large}
+            data-lightbox="my_gall"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={pic9Small} alt="pic9Small" />
           </a>
-          <a href={pic10Large} data-lightbox="my_gall">
+          <a
+            href={pic10Large}
+            data-lightbox="my_gall"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={pic10Small} alt="pic10Small" />
           </a>
         </div>
