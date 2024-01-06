@@ -84,6 +84,7 @@ export const Contact = () => {
             <a
               href="https://www.facebook.com/profile.php?id=100066134606966&mibextid=hIlR13"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 alt="facebook"
