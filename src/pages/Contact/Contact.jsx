@@ -19,7 +19,7 @@ export const Contact = () => {
   return (
     <>
       <div className="contact-templatemo_banner_panel">
-        <img alt="contactus" src={contactus} height={500} width={1200} />
+        <img alt="contactus" src={contactus} height={500} width={900} />
       </div>
 
       <div class="Contact">CONTACT</div>
