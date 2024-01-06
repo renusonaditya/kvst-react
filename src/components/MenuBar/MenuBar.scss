@@ -23,8 +23,13 @@
       text-decoration: none;
       background-color: transparent;
       border: none;
-      border-bottom: 3px solid #703901;
+      border-bottom: 3px solid #472400;
       cursor: pointer;
+
+      &--active,
+      &:hover {
+        border-bottom: 3px solid #703901;
+      }
     }
 
     &__options {
