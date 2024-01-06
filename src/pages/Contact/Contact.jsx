@@ -19,7 +19,13 @@ export const Contact = () => {
   return (
     <>
       <div className="contact-templatemo_banner_panel">
-        <img alt="contactus" src={contactus} height={500} width={900} />
+        <img
+          alt="contactus"
+          src={contactus}
+          height="100%"
+          width="100%"
+          className="contactus"
+        />
       </div>
 
       <div class="Contact">CONTACT</div>
@@ -56,6 +62,7 @@ export const Contact = () => {
             <a
               href="https://www.instagram.com/kashivishwanathtemplemedchal?igshid=OGQ5ZDc2ODk2ZA=="
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 alt="instagram"
