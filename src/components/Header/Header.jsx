@@ -6,6 +6,7 @@ import cropped from "./assets/cropped.gif";
 import rodLower from "./assets/rod-lower.png";
 import rodUpper from "./assets/rod-upper.png";
 
+export const headerScrollId = "templatemo_header_panel";
 export const Header = () => {
   return (
     <div id="templatemo_header_panel">

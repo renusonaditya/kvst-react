@@ -1,3 +1,4 @@
+import { headerScrollId } from "../../../components/Header/Header";
 import Afull from "../assets/Afull.jpg";
 import His from "../assets/His.jpg";
 import NewT2 from "../assets/NewT2.jpg";
@@ -6,6 +7,7 @@ import nandis from "../assets/nandis.jpg";
 import shikaram from "../assets/shikaram.jpg";
 import utsavmurtis from "../assets/utsavmurtis.jpg";
 import well2 from "../assets/well2.jpg";
+import { scrollIds } from "./constants";
 
 export const cards = [
   {
@@ -30,6 +32,7 @@ export const cards = [
   {
     title: "HISTORY",
     image: His,
+    scrollId: scrollIds.history,
     subtitle: `Sri Kashi Vishwanath temple is an ancient Hindu temple built in
         the year 
         1859 by Sri Kandukuri Venkata Ramayya during the time of Nizam
@@ -74,6 +77,7 @@ export const cards = [
   {
     title: "GENERAL INFORMATION",
     image: NewT2,
+    scrollId: scrollIds.generalInformation,
     subtitle: `
         <h2>MAIN TEMPLE:</h2>
         <h3>DWARAS OF THE TEMPLE:</h3>

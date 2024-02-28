@@ -1,3 +1,5 @@
+import { scrollIds } from "../../../pages/About/config/constants";
+
 export const menu = [
   {
     label: "Home",
@@ -10,12 +12,15 @@ export const menu = [
     options: [
       {
         label: "About Temple",
+        redirectTo: "/about",
       },
       {
         label: "History",
+        scrollId: scrollIds.history,
       },
       {
         label: "General Information",
+        scrollId: scrollIds.generalInformation,
       },
     ],
   },

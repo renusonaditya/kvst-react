@@ -27,17 +27,13 @@ const SideContent = ({ title, subtitle }) => {
 };
 
 const Description = ({ description }) => {
-  return (
-    <div className={descriptionClassName}>
-      {parseToHTML(description)}
-    </div>
-  );
+  return <div className={descriptionClassName}>{parseToHTML(description)}</div>;
 };
 
 export const ContentCard = ({ isInversedContentCard, cardData }) => {
-  const { image, title, subtitle, description } = cardData;
+  const { image, title, subtitle, description, scrollId } = cardData;
   return (
-    <div className={rootClassName}>
+    <div className={rootClassName} id={scrollId}>
       <div className={imageAndContentClassName}>
         {!isInversedContentCard && <Image cardImage={image} />}
         <SideContent title={title} subtitle={subtitle} />

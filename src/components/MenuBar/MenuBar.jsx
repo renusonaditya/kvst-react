@@ -18,6 +18,15 @@ export const MenuBar = () => {
   const location = useLocation();
   const { pathname } = location;
 
+  const scrollIntoView = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView();
+    } else {
+      console.error(`Element with id '${id}' not found.`);
+    }
+  };
+
   const redirectToSelectedPath = (path) => {
     navigate(path);
   };
@@ -44,7 +53,11 @@ export const MenuBar = () => {
                 {options &&
                   Boolean(options.length) &&
                   options.map((eachOption) => {
-                    const { label } = eachOption;
+                    const {
+                      label,
+                      scrollId,
+                      redirectTo: itemRedirectTo,
+                    } = eachOption;
                     return (
                       <div
                         className={menuItemOption}
@@ -53,7 +66,14 @@ export const MenuBar = () => {
                         <button
                           type="button"
                           className={menuItemOptionButton}
-                          onClick={() => redirectToSelectedPath(redirectTo)}
+                          onClick={async () => {
+                            if (itemRedirectTo) {
+                              redirectToSelectedPath(itemRedirectTo);
+                              return;
+                            }
+                            await redirectToSelectedPath(redirectTo);
+                            scrollIntoView(scrollId);
+                          }}
                         >
                           {label}
                         </button>
