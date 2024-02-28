@@ -55,4 +55,7 @@
 .description-content {
   padding: 25px;
   width: 100%;
+
+  text-align: justify;
+
 }

@@ -1,6 +1,6 @@
 #abtpl {
   position: relative;
-  
+
   top: 80px;
   left: 40px;
 }
@@ -535,6 +535,12 @@
 
 .about-page {
   line-height: 21px;
+
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+  }
 }
 
 .general-information-cards-wrapper {

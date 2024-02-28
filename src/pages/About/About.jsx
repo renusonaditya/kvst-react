@@ -7,6 +7,7 @@ import "./About.scss";
 export const About = () => {
   return (
     <div className="about-page">
+      <h1>ABOUT TEMPLE</h1>
       {cards.map((eachCard, index) => {
         const isInvertedContentCard = index % 2;
         return (

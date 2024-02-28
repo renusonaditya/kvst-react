@@ -26,12 +26,11 @@
   text-align: left;
   width: 1200px;
   margin: auto;
-}
 
-#about_trust_desc a {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
+  text-align: justify;
 }
 
 #about_temple_info2 {
@@ -198,6 +197,10 @@
 
 .trust-page {
   line-height: 30px;
+
+  a {
+    text-align: justify;
+  }
 }
 
 .project-card {
