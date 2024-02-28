@@ -4,7 +4,7 @@ import pro_gop from "../assets/pro_gop.jpg";
 
 export const cards = [
   {
-    title: "",
+    title: "GOPURAM",
     image: pro_gop,
     subtitle: `The gopuram serves as a symbol of connection to the divine,
     reminding worshippers of their faith 
@@ -30,7 +30,7 @@ export const cards = [
     2028`,
   },
   {
-    title: "",
+    title: "GAUSHALA",
     image: gaushala,
     subtitle: `As per Hindu tradition, cow is considered as the sacred animal.
     There is a saying that 33 crores 
@@ -49,7 +49,7 @@ export const cards = [
     the temple authorities.`,
   },
   {
-    title: "",
+    title: "ANNADANAM",
     image: pro_anna,
     subtitle: `There is a saying in Sanskrit "ANNADANAM MAHADANAM". Donating food
     is most pious 

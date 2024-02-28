@@ -133,12 +133,9 @@ export const Trust = () => {
           </a>
         </div>
 
-        <div id="pro_projects_d">
-          <a href="#"> GOPURAM, NITYA ANNADANA SATRAM, GAUSHALA. </a>
-        </div>
-
         {cards.map((eachCard, index) => {
           const isInvertedContentCard = index % 2;
+          const { header } = eachCard;
           return (
             <ContentCard
               isInversedContentCard={isInvertedContentCard}
