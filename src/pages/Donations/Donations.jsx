@@ -1,3 +1,4 @@
+import { scrollIds } from "../../constants";
 import charity from "./assets/charity.jpg";
 
 import "./Donations.scss";
@@ -62,7 +63,7 @@ export const Donations = () => {
         </div>
 
         <div id="HUNDI">
-          <ul>
+          <ul id={scrollIds.donations.hundi}>
             <li>
               <a href="#"> HUNDI </a>
             </li>
@@ -88,7 +89,7 @@ export const Donations = () => {
 
       <div id="online">
         <div id="online">
-          <ul>
+          <ul id={scrollIds.donations.onlinePayment}>
             <li>
               <a href="#">ONLINE PAYMENTS</a>
             </li>
@@ -134,8 +135,6 @@ export const Donations = () => {
                 <br />
                 <br />
                 <br />
-                
-                
               </a>
             </li>
           </ul>

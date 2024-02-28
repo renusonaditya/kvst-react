@@ -3,9 +3,11 @@ import Rudrabhishekam1 from "../assets/Rudrabhishekam1.jpg";
 import Nandeeshwara from "../assets/Nandeeshwara.jpg";
 import palki from "../assets/palki.jpg";
 import kalyanam from "../assets/kalyanam.jpg";
+import { scrollIds } from "../../../../constants";
 
 export const specialPuja = {
   title: "SPECIAL PUJA:",
+  scrollId: scrollIds.rituals.specialPujas,
   subtitle: "List of Special Puja programs performed in the temple:",
   rituals: [
     {

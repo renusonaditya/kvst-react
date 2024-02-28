@@ -2,9 +2,9 @@ import React from "react";
 import "./PoojaCard.css";
 
 export const PoojaCard = ({ data }) => {
-  const { title, subtitle, rituals } = data;
+  const { title, subtitle, rituals, scrollId } = data;
   return (
-    <>
+    <span id={scrollId}>
       <div class="Nitya_puja">{title}</div>
       <div class="Nitya_puja_list">{subtitle}</div>
 
@@ -22,6 +22,6 @@ export const PoojaCard = ({ data }) => {
           </div>
         );
       })}
-    </>
+    </span>
   );
 };

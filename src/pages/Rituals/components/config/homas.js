@@ -3,9 +3,11 @@ import rudra from "../assets/rudra.jpg";
 import chandi from "../assets/chandi.jpg";
 import mrit from "../assets/mrit.jpg";
 import navag from "../assets/navag.jpg";
+import { scrollIds } from "../../../../constants";
 
 export const homas = {
   title: "HOMAS:",
+  scrollId: scrollIds.rituals.homas,
   subtitle: "List of Homas performed in the temple:",
   rituals: [
     {

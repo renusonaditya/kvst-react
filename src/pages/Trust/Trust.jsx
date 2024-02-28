@@ -5,6 +5,7 @@ import { ContentCard } from "../../components";
 import { cards } from "./config/cards";
 
 import "./Trust.scss";
+import { scrollIds } from "../../constants";
 
 export const Trust = () => {
   return (
@@ -21,13 +22,13 @@ export const Trust = () => {
         </div>
 
         <div id="about_trust_desc">
-            Sri Kashi Vishwanath Temple in Medchal was constructed in the year
-            1859 on the day of Maaga Maasa Shukla-paksha Triodashi Day of
-            Siddhadra Nama Samvatsara according to Telugu Calender by Sri
-            Kandukuri Venkata Ramayya. Since then their descendents continued
-            maintaining the temple. For the development, Present trustee Sri
-            Kandukuri Prabhakar formed a trust with few existing comittee
-            members in the month of February 2022.
+          Sri Kashi Vishwanath Temple in Medchal was constructed in the year
+          1859 on the day of Maaga Maasa Shukla-paksha Triodashi Day of
+          Siddhadra Nama Samvatsara according to Telugu Calender by Sri
+          Kandukuri Venkata Ramayya. Since then their descendents continued
+          maintaining the temple. For the development, Present trustee Sri
+          Kandukuri Prabhakar formed a trust with few existing comittee members
+          in the month of February 2022.
         </div>
 
         <div id="trust_detail">
@@ -116,9 +117,11 @@ export const Trust = () => {
       </div>
 
       <div id="project">
-        <div id="project">
-          <a href="#">PROJECTS</a>
-        </div>
+        <span id={scrollIds.trust.projects}>
+          <div id="project">
+            <a href="#">PROJECTS</a>
+          </div>
+        </span>
         <div id="pro_pic1">
           <img src={project1} id="project1" alt="project1" />
         </div>
@@ -145,10 +148,11 @@ export const Trust = () => {
         })}
 
         <div id="emp_det">
-          <a href="#">
-            {" "}
-            <nobr> EMPLOYEE DETAILS </nobr>{" "}
-          </a>
+          <span id={scrollIds.trust.employeeDetails}>
+            <a href="#">
+              <nobr> EMPLOYEE DETAILS </nobr>{" "}
+            </a>{" "}
+          </span>
         </div>
 
         <div id="emp_det_d">

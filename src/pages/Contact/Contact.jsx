@@ -14,6 +14,7 @@ import whatsapp from "./assets/wha_icon.png";
 import youtube from "./assets/yout_icon.png";
 
 import "./Contact.css";
+import { scrollIds } from "../../constants";
 
 export const Contact = () => {
   return (
@@ -28,7 +29,9 @@ export const Contact = () => {
         />
       </div>
 
-      <div class="Contact">CONTACT</div>
+      <div class="Contact" id={scrollIds.contact.contactUs}>
+        CONTACT
+      </div>
       <div class="Trustee">TRUSTEE, MEDCHAL, TELANGANA, INDIA, 501401</div>
 
       <div className="contact-rituals-puja-container">
@@ -169,7 +172,9 @@ export const Contact = () => {
         <img alt="lingam" src={lingam} id="sn" />
       </div>
 
-      <div class="Reach">How to Reach</div>
+      <div class="Reach" id={scrollIds.contact.howToReach}>
+        How to Reach
+      </div>
       <div class="Reach_det">
         Sri Kashi Vishwanath temple is located in Medchal City which is around
         23 kms from Hyderabad
