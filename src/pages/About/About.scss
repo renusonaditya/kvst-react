@@ -536,3 +536,9 @@
 .about-page {
   line-height: 21px;
 }
+
+.general-information-cards-wrapper {
+  .content-card__image-and-content__image {
+    width: unset;
+  }
+}
