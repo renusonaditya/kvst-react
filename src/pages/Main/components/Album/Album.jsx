@@ -19,9 +19,18 @@ import pic9Small from "./assets/Pic9-small.jpg";
 import pic10Large from "./assets/Pic10-large.jpg";
 import pic10Small from "./assets/Pic10-small.jpg";
 
+import { useNavigate } from "react-router-dom";
+
 import "./Album.css";
 
 export const Album = () => {
+  const navigate = useNavigate();
+
+  const isViewMore = !window.location.href.includes("gallery");
+
+  const handleViewMoreClick = () => {
+    navigate("/gallery");
+  };
   return (
     <>
       <div id="templatemo_Album_panel">
@@ -117,15 +126,17 @@ export const Album = () => {
           </a>
         </div>
       </div>
-      <div id="templatemo_vmore_panel">
-        <div id="templatemo_vmore_section">
-          <ul>
-            <li>
-              <a href="javascript:void(0)">View More</a>
-            </li>
-          </ul>
+      {isViewMore && (
+        <div id="templatemo_vmore_panel" onClick={handleViewMoreClick}>
+          <div id="templatemo_vmore_section">
+            <ul>
+              <li>
+                <a href="javascript:void(0)">View More</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
+      )}
     </>
   );
 };

@@ -1,3 +1,5 @@
+export { Gallery } from "./Gallery";
+
 export { Contact } from "./Contact";
 
 export { Donations } from "./Donations";

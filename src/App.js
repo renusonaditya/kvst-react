@@ -1,6 +1,14 @@
 import { Footer, Header, MenuBar } from "./components";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-import { About, Contact, Donations, Main, Rituals, Trust } from "./pages";
+import {
+  About,
+  Contact,
+  Donations,
+  Gallery,
+  Main,
+  Rituals,
+  Trust,
+} from "./pages";
 
 import "./App.scss";
 
@@ -22,6 +30,7 @@ function App() {
             <Route path="rituals" element={<Rituals />} />
             <Route path="trust" element={<Trust />} />
             <Route path="donations" element={<Donations />} />
+            <Route path="gallery" element={<Gallery />} />
             <Route path="" element={<Navigate to="home" />} />
           </Routes>
         </div>
